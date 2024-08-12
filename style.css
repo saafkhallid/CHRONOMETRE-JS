@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(192, 221, 62);
+}
+
+.wraper {
+  padding: 100px;
+  border-radius: 30px;
+  background-color: white;
+}
+.chrono {
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.button {
+  font-size: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  padding: 10px;
+}
+button:not(:last-child) {
+  margin-right: 15px;
+}
+button:nth-child(2) {
+  background-color: rgb(139, 139, 147);
+}
+button:last-child {
+  color: white;
+  background-color: rgb(83, 83, 203);
+}
